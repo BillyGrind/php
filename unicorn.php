@@ -22,6 +22,7 @@
 
 
 <?php
+
 if(isset($_GET['submit'])){
 
     $type = $_GET['type'];
