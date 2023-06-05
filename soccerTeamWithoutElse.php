@@ -32,7 +32,7 @@ if (isset($_GET['submit'])) {
     $age = $_GET['age'];
     $gender = $_GET['gender'];
     $name = $_GET['name'];
-    $message = "Go fuck yourself ".$name;
+    $message = "Not for you sorry ".$name;
 
     if($age>= 21 AND $age<=41 AND $gender == 'female'){
         $message = "Welcome to the soccer team ".$name;

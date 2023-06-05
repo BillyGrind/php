@@ -36,7 +36,7 @@ if (isset($_GET['submit'])) {
     if($age>= 21 AND $age<=41 AND $gender == 'female'){
         echo "Welcome to the soccer team ".$name;
     }else{
-        echo "Go fuck yourself ".$name;
+        echo "Not for you sorry ".$name;
     }
 }
 
