@@ -1,14 +1,13 @@
 
 # PHP Fundamentals
 
-Discovery and learning of the PHP language.
-Installation and use of local server via XAMPP on Ubuntu and WAMP on WIndows.
+Discovering and learning PHP. Installing and using a local server via XAMPP on Ubuntu and WAMP on Windows.
 
 
 
 
 ## Subject matter
-- Installation Xampp / Wamp
+- Xampp / Wamp installation
 - Variables
 - Conditions
 - Drill
