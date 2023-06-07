@@ -11,15 +11,20 @@
 <?php
 
 $str = " info";
+$strError = "error";
+$strNotice ="notice";
+$strWarning ="warning";
 
 function feedback(&$info,$message,$class){
     $class.=$info;
+    $message = ucfirst($message);
     echo "<div class='$class'>$message</div>";
 }
 
-feedback($str,"Error :Incorrect email address","error");
-feedback($str,"Notice :Incorrect email address","notice");
-feedback($str,"Warning :Incorrect email address","warning");
+
+feedback($str,"$strError:Incorrect email address",$strError);
+feedback($str,"$strNotice:Incorrect email address",$strNotice);
+feedback($str,"$strWarning:Incorrect email address",$strWarning);
 
 ?>
 
